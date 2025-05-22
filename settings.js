@@ -31,7 +31,7 @@ MODE: process.env.MODE || "public",
        WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups 
    
-       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
 
       ANTI_LINK: process.env.ANTI_LINK || "true",
@@ -53,16 +53,16 @@ MODE: process.env.MODE || "public",
         STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
 
-          DELETE_LINKS: process.env.DELETE_LINKS || "false",
+          DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
 
-          OWNER_NUMBER: process.env.OWNER_NUMBER || "26371475XXXX",
+          OWNER_NUMBER: process.env.OWNER_NUMBER || "255618178431",
 // add your bot owner number
 
 OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
@@ -79,7 +79,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
                 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
 
-            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 
             AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -88,16 +88,16 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
         AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 
-              AUTO_REPLY: process.env.AUTO_REPLY || "false",
+              AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
-        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+        ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
          PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 
-        AUTO_TYPING: process.env.AUTO_TYPING || "false",
+        AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing 
   
    READ_CMD: process.env.READ_CMD || "false",
